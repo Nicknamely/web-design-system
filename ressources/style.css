@@ -1,0 +1,188 @@
+html{
+    font-family: "Quicksand";
+}
+body{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* height: 100vh; */
+margin: 0rem;
+background-image: url(./image/Default_Depict_a_majestic_sky_island_hovering_above_a_rugged_s_1.jpg);
+
+}  
+
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: transparent;
+backdrop-filter: blur(8px);
+border-radius: 32px;
+height: auto;
+width: auto;
+box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+
+}
+ 
+ /* Text */
+h1{
+    font-family: "SUSE";
+    font-size: 4.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 0.01rem;
+    color:#edbfc6;  
+    /* background-color: transparent;
+    backdrop-filter: blur(24px);
+    border-radius: 2rem; */
+    text-shadow:0px 10x 1rem #30323d;
+}
+
+h2{
+    font-family: "Quicksand";
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 0.02;
+    font-size: 2.5rem;
+    color: #d3f3ee;
+}
+p{
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+.style{
+    font-family: "Quicksand";
+    font-weight: 1000;
+}
+.text-style ul ul li::before{
+    content: "> ";
+    font-family: "SUSE";
+    font-weight: 900;
+
+}
+
+
+/* Tab */
+.tab{
+    border-radius: 24px;
+    width: 421px;
+    margin: 12px;
+    padding: 12px;
+    background-color: transparent;
+    backdrop-filter: blur(80px);
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+    
+}
+.text-style{
+/*     position: relative;
+    left: 108px;
+    top: 64px;
+    width: 421px;
+    height: 374px; */
+    /* background-color: aqua;  */
+    height: 374px;
+}
+.palette{
+/*     position: relative;
+  left: 537px;
+  top: 63px;
+  width: 422px;
+  height: 204px; */
+  /* background-color: beige; */
+  height: 204px;
+}
+.colors{
+    display: flex;
+    justify-content: space-around;
+
+}
+.color{
+    height: 4.5rem;
+    width: 4.5rem;
+    /* border: solid 1px black; */
+    border-radius: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Quicksand";
+    font-size: .9rem;
+
+}
+.color.color1{
+    background-color: #f9c846;
+}
+.color.color2{
+    background-color:#30323d;
+}
+.color.color3{
+    background-color: #edbfc6;
+}
+.color.color4{
+    background-color: #9e6240;
+}
+.color.color5{
+    background-color: #d3f3ee;
+}
+.fonts{
+    /* background-color: blue; */
+    height: 332px;
+}
+.btn-style{
+    /* background-color: blueviolet; */
+    height: 162px;
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    /* border: solid black 1px; */
+    width: 10rem;
+    height: 2.3rem;
+    border-radius: 2rem;
+}
+.btn.filled{
+    background-color: #f9c846;
+    border: solid .2rem #f9c846
+}
+.btn.bordered{
+    border: solid .2rem #f9c846
+}
+
+.quicksand{
+    font-family: "Quicksand";
+}
+.quicksand.light{
+    font-weight: 200;
+
+}
+.quicksand.normal{
+    font-weight: 400;
+}
+.quicksand.bold{
+    font-weight: 1000;
+}
+.suse{
+    font-family: "SUSE";
+}
+.suse.light{
+    font-weight: 200;
+
+}
+.suse.normal{
+    font-weight: 400;
+}
+.suse.bold{
+    font-weight: 1000;
+}
