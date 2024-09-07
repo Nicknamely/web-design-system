@@ -156,6 +156,9 @@ li {
     background-color: #f9c846;
     border: solid .2rem #f9c846
 }
+.btn.filled:hover{
+    scale: 1.1;
+}
 .btn.bordered{
     border: solid .2rem #f9c846
 }
